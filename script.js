@@ -386,43 +386,43 @@ function changeflagcoin() {
 
     if (converterPara.value == "dolar") {
         coinToConverted.innerHTML = "Dólar Americano"
-        imgconverted.src = "/assets/estados-unidos.png"
+        imgconverted.src = "assets/estados-unidos.png"
     }
     if (converterPara.value == "euro") {
         coinToConverted.innerHTML = "Euro"
-        imgconverted.src = "/assets/Euro.png"
+        imgconverted.src = "assets/Euro.png"
     }
     if (converterPara.value == "real") {
         coinToConverted.innerHTML = "Real"
-        imgconverted.src = "/assets/real.png"
+        imgconverted.src = "assets/real.png"
     }
     if (converterPara.value == "libra") {
         coinToConverted.innerHTML = "Libra"
-        imgconverted.src = "/assets/libra.png"
+        imgconverted.src = "assets/libra.png"
     }
     if (converterPara.value == "bitcoin") {
         coinToConverted.innerHTML = "BitCoin"
-        imgconverted.src = "/assets/bitcoin.png"
+        imgconverted.src = "assets/bitcoin.png"
     }
     if (converterDe.value == "real") {
         pConverter.innerHTML = "Real"
-        imgToConvert.src = "/assets/real.png"
+        imgToConvert.src = "assets/real.png"
     }
     if (converterDe.value == "dolar") {
         pConverter.innerHTML = "Dólar Americano"
-        imgToConvert.src = "/assets/estados-unidos.png"
+        imgToConvert.src = "assets/estados-unidos.png"
     }
     if (converterDe.value == "euro") {
         pConverter.innerHTML = "Euro"
-        imgToConvert.src = "/assets/Euro.png"
+        imgToConvert.src = "assets/Euro.png"
     }
     if (converterDe.value == "libra") {
         pConverter.innerHTML = "Libra"
-        imgToConvert.src = "/assets/libra.png"
+        imgToConvert.src = "assets/libra.png"
     }
     if (converterDe.value == "bitcoin") {
         pConverter.innerHTML = "BitCoin"
-        imgToConvert.src = "/assets/bitcoin.png"
+        imgToConvert.src = "assets/bitcoin.png"
     }
 
     converter()
