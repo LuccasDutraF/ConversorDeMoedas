@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #8A51FC;
+    background-color: #3c0203;
     font-family: Roboto;
 }
 
@@ -23,7 +23,7 @@ main {
 
 .conversor {
     width: 375px;
-    background-color: #F4F4F4;
+    background-color: #1d1d1dab;
     border-radius: 20px;
     padding: 44px 24px 23px;
 }
@@ -36,12 +36,12 @@ main {
     font-size: 16px;
     font-weight: 700;
     line-height: 18px;
-    color: #555;
+    color: #ffffff;
     padding-left: 20px;
     margin-bottom: 30px;
     border-radius: 4px;
     border: 1px solid #BBB;
-    background: #FFF;
+    background: #3c0203;
     box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.15);
 }
 
@@ -67,12 +67,12 @@ input {
     font-size: 16px;
     font-weight: 700;
     line-height: 18px;
-    color: #555;
+    color: #ffffff;
     padding-left: 10px;
     box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     border: 1px solid #BBB;
-    background: #FFF;
+    background: #3c0203;
     margin-bottom: 23px;
 }
 
@@ -80,8 +80,8 @@ button {
     width: 327px;
     height: 48px;
     border-radius: 5px;
-    background: #772FD3;
-    color: #FFF;
+    background: #d81b1f;
+    color: #3c0203;
     font-size: 18px;
     font-weight: 700;
     line-height: 18px;
@@ -100,41 +100,40 @@ button:active {
 
 .conversão-container {
     border-radius: 20px;
-    border: 1px solid #772FD3;
+    border: 1px solid #ffffff;
     width: 327px;
     height: 276px;
     padding-top: 12px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 3px;
+    gap: 5px;
 }
 
 
-
 .coin-to-converted {
-    color: #777;
+    color: #ffffff8c;
     font-size: 14px;
     font-weight: 400;
     line-height: 18px;
 }
 
 .converted {
-    color: #555;
+    color: #ffffff;
     font-size: 20px;
     font-weight: 700;
     line-height: 18px;
 }
 
 .p-to-convert {
-    color: #777;
+    color: #ffffff8c;
     font-size: 14px;
     font-weight: 400;
     line-height: 18px;
 }
 
 .to-convert {
-    color: #555;
+    color: #ffffff;
     font-size: 20px;
     font-weight: 700;
     line-height: 18px;
